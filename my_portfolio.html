@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divaye Behal Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #f8f9fa;
+            padding: 2rem;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid #ddd;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .sidebar h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        .sidebar p {
+            font-size: 0.9rem;
+            text-align: center;
+            color: #6c757d;
+        }
+        .sidebar nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 2rem;
+            width: 100%;
+        }
+        .sidebar nav ul li {
+            margin-bottom: 1rem;
+        }
+        .sidebar nav ul li a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            text-align: center;
+            display: block;
+            transition: color 0.3s ease;
+        }
+        .sidebar nav ul li a:hover {
+            color: #0056b3;
+        }
+        .content {
+            width: 75%;
+            padding: 2rem;
+        }
+        .hero {
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #e9ecef;
+            margin-bottom: 2rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+        .btn-primary {
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        .skills {
+            background-color: #212529;
+            color: white;
+            padding: 4rem 2rem;
+        }
+        .skills h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .skill-item {
+            margin-bottom: 1.5rem;
+        }
+        .skill-item span {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        .progress {
+            height: 8px;
+            background-color: #343a40;
+        }
+        .progress-bar {
+            transition: width 0.6s ease;
+        }
+    </style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <img src="my_picture.jpg" alt="Divaye Behal">
+        <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">Divaye Behal</h2>
+        <p>Cloud & Data Expert</p>
+        <nav>
+            <ul style="padding: 0; margin: 0 auto; text-align: center; list-style: none;">
+                <li style="margin-bottom: 5px;"><a href="#home">Home</a></li>
+                <li style="margin-bottom: 5px;"><a href="#skills">Skills</a></li>
+                <li style="margin-bottom: 5px;"><a href="#bi-dashboards">BI Dashboards</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#volunteering">Volunteering Experience</a></li>
+            </ul>
+            <div style="margin-top: 15px; text-align: center; font-size: 0.9rem; padding: 15px; border-radius: 8px; background-color: #f8f9fa; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                <p><strong><h3 style="font-size: 1rem; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;">Contact Information</h3></strong></p>
+                <p><strong>Email:</strong> <a href="mailto:behal.divaye@gmail.com">behal.divaye@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/behald?tab=repositories" target="_blank">github.com/behald</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/divaye/" target="_blank">linkedin.com/in/divaye</a></p>
+                <p>Contact Number: +1 571-640-0652 </p>
+
+            </div>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <section id="home" class="hero" style="background-color: #f8f9fa; padding: 2rem; border-radius: 10px; text-align: center; width: 100%; max-width: 100%;">
+            <div>
+                <h1>👋 Hi, I'm Divaye Behal!</h1>
+                <p>I'm a Data & Cloud Engineer pursuing my MS in Computer and Information Technology, specializing in Data Science. I’m passionate about solving complex business problems by leveraging my cloud expertise and data engineering skills.</p>
+                <p>With hands-on experience in AWS, GCP, and cloud architectures, I design scalable data solutions that drive insights. I excel at combining quantitative analysis with creative storytelling, turning raw data into powerful dashboards that make decision-making easier.</p>
+                <p>Check out my projects to see how I transform data into actionable insights!</p>
+                <p>Empowering data-driven insights with expertise in cloud computing and data visualization</p>
+                <a href="my_cv.pdf" class="btn btn-primary" download>Download CV</a>
+            </div>
+        </section>
+
+        <section id="skills" class="skills" style="margin-bottom: 4rem;" style="margin-bottom: 4rem;">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">My Skills</h2>
+            <p class="text-center mb-4">Showcasing expertise in various domains to drive impactful results.</p>
+
+            <div class="skill-item">
+                <span><strong>Python</strong> <span>90%</span></span>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span><strong>Data Visualization (Power BI, Tableau)</strong> <span>85%</span></span>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span><strong>SQL & Database Management</strong> <span>95%</span></span>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span><strong>Machine Learning</strong> <span>60%</span></span>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span><strong>Cloud Computing (AWS, GCP)</strong> <span>90%</span></span>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;"></div>
+                </div>
+            </div>
+        <div class="skill-item">
+                <span><strong>Statistics</strong> <span>85%</span></span>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 85%;"></div>
+                </div>
+                <ul style="color: white; font-size: 0.9rem; margin-top: 0.5rem;">
+                    <li>Descriptive Statistics</li>
+                    <li>Hypothesis Testing</li>
+                    <li>Regression Analysis</li>
+                    <li>Time Series Analysis</li>
+                    <li>Bayesian Inference</li>
+                </ul>
+            </div>
+        </section>
+
+        
+
+        <section id="volunteering" class="skills" style="background-color: #333; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">Volunteering Experience</h2>
+            <p>To demonstrate my management and presentation skills, I volunteered at the Indianapolis White River State Park event during the solar eclipse. It was an incredible experience where I managed the information booth for the entire event.</p>
+            <p>My responsibilities included guiding attendees, answering their questions, and ensuring they had a great experience. I also helped with various other tasks to ensure the event ran smoothly.</p>
+            <p>This experience allowed me to contribute to a community event and enhance my organizational and communication skills.</p>
+        </section>
+
+        <section id="education" class="skills" style="background-color: #333; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">Education</h2>
+            <p><strong>Purdue University, West Lafayette, USA</strong> (Aug 2023 - Present)</p>
+            <p>MS, Computer and Information Technology - Data Science</p>
+            <p>Relevant Coursework: Applied Data Analytics, Business Analytics, Data-Driven Cloud Applications (AWS, GCP), Advanced Data Management (AWS), Statistical Programming, NLP Research (Educational Chatbot), Database Security, Advanced Project Management in Technology, Systems Development, Cloud, Data Centers, and Networks, Statistics.</p>
+            
+            <p><strong>Bharati Vidyapeeth University, Pune, India</strong> (July 2019 – July 2022)</p>
+            <p>Bachelor of Computer Application, Computer Science and Big Data</p>
+            <p>Relevant Coursework: Software Engineering, Data Warehousing, Data Mining, Big Data, Data Structures and Algorithms, Business Analytics, Object-Oriented Analysis and Design, Algorithm and Program Design, Business Mathematics, Statistics, DBMS.</p>
+        </section>
+
+        <section id="experience" class="skills" style="background-color: #333; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">Experience</h2>
+            <p><strong>Purdue University</strong> (Aug 2023 – Present)</p>
+            <p>Graduate Teaching Assistant, Indiana, USA</p>
+            <ul>
+                <li>Tutored students in object-oriented programming languages like Python and relational database languages such as SQL.</li>
+            </ul>
+            
+            <p><strong>Jak Software</strong> (Aug 2022 – July 2023)</p>
+            <p>IT Data Analyst Intern, New Delhi, India</p>
+            <ul>
+                <li>Designed and managed data pipelines on AWS using Amazon RDS, DynamoDB, and S3 for structured and unstructured data integration.</li>
+                <li>Preprocessed and cleaned data using AWS Glue and Lambda to ensure data quality and consistency.</li>
+                <li>Performed statistical analysis and advanced analytics with Amazon SageMaker to identify profitable customer segments and optimize marketing strategies.</li>
+                <li>Monitored real-time campaign performance using Amazon QuickSight and implemented data-driven adjustments to maximize ROI.</li>
+            </ul>
+        </section>
+
+        <section id="bi-dashboards" class="skills" style="background-color: #333; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">BI Dashboards</h2>
+            <p>Below are some of my interactive Power BI dashboards showcasing data insights:</p>
+            <img src="dashboards/dashboard1.jpg" alt="Dashboard 1" style="max-width: 100%; height: auto; display: block; margin: auto;">
+            <img src="dashboards/dashboard2.jpg" alt="Dashboard 2" style="max-width: 100%; height: auto; display: block; margin: auto;">
+        </section>
+
+        <section id="projects" class="skills" style="background-color: #333; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">Projects</h2>
+            <p><strong>Uber vs Lyft Analysis</strong> (October 2023) - <a href="https://github.com/behald/Uber-vs-Lyft" target="_blank">View on GitHub</a></p>
+            <ul>
+                <li>Enhanced data quality through Kaggle data extraction, rigorous preprocessing, null value imputation, and IQR-based outlier removal, leading to a 15% increase in data accuracy.</li>
+                <li>Provided data-driven insights that contributed to a 10% increase in cost-effectiveness, revealing that Lyft has higher prices than Uber in terms of the cost of rides.</li>
+            </ul>
+            
+            <p><strong>AI For Education</strong> (June 2024) - <a href="https://github.com/behald/AI-For-Education" target="_blank">View on GitHub</a></p>
+            <ul>
+                <li>Collected data using ChatGPT API in Python and applied NLP preprocessing techniques such as stemming, lemmatization, sentence segmentation, and stop word removal.</li>
+                <li>Compared semantic scores across profiles with scores greater than 75% and used Word2Vec to identify response variations by ethnicity, major, and experience.</li>
+            </ul>
+            
+            <p><strong>Crime Affect On Real Estate</strong> (December 2023) - <a href="https://github.com/behald/Crime-Impact-RealEstate" target="_blank">View on GitHub</a></p>
+            <ul>
+                <li>Cleaned data: addressed 10% missing values and fixed 5 skewed columns.</li>
+                <li>Identified and removed 50+ outliers; created a scatter plot showing a 30% decrease in real estate prices in high-crime areas.</li>
+                <li>Used Google Cloud BigQuery to train a machine-learning model that accurately predicts the NSA index based on crime rates.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="skills" style="background-color: #333; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem; text-align: center;" style="font-weight: 900;">Contact</h2>
+            <p>Email: <a href="mailto:behal.divaye@gmail.com">behal.divaye@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/behald" target="_blank">github.com/behald</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/divaye/" target="_blank">linkedin.com/in/divaye</a></p>
+        </section>
+    </main>
+</body>
+</html>
+
+
